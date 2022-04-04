@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -286,46 +286,41 @@
     <!-- Blog Section End -->
 
     <!-- Contact Section Start -->
-    <section id="contact" class="pt-44 pb-24">
+    <section id="contact" class="pt-32 pb-24">
         <div class="container">
             <div class="w-full px-4">
-                <h4 class="font-bold uppercase text-primary text-lg mb-8 flex"><span
+                <h4 class="font-bold uppercase text-primary justify-center text-lg mb-8 flex"><span
                         class="w-[15px] h-[4px] bg-slate-800 self-center"></span>&nbsp;Contact 📞</h4>
             </div>
 
-            <div class="flex flex-wrap">
-                <div class="w-full px-4 lg:w-1/2 mb-10">
-                    <form>
-                        <div class="w-full lg:max-w-xl">
-                            <div class="w-full mb-5">
-                                <label for="name" class="text-base text-primary font-bold">Nama</label>
-                                <input type="text" id="name"
-                                    class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
-                            </div>
-                            <div class="w-full mb-5">
-                                <label for="email" class="text-base text-primary font-bold">Email</label>
-                                <input type="email" id="email"
-                                    class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" />
-                            </div>
-                            <div class="w-ful mb-7">
-                                <label for="message" class="text-base text-primary font-bold">Pesan</label>
-                                <textarea name="message" id="message" cols="30" rows="5"
-                                    class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"></textarea>
-                            </div>
-
-                            <div class="w-full">
-                                <button
-                                    class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:opacity-80 hover:shadow-lg transition duration-500">
-                                    Kirim 🚀
-                                </button>
-                            </div>
+            <div class="w-full px-4">
+                <form>
+                    <div class="lg:w-2/3 lg:mx-auto">
+                        <div class="w-full mb-5">
+                            <label for="name" class="text-base text-primary font-bold">Nama</label>
+                            <input type="text" id="name"
+                                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" required />
                         </div>
-                    </form>
-                </div>
+                        <div class="w-full mb-5">
+                            <label for="email" class="text-base text-primary font-bold">Email</label>
+                            <input type="email" id="email"
+                                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none
+                                focus:ring-primary focus:ring-1 focus:border-primary" required />
+                        </div>
+                        <div class="w-ful mb-7">
+                            <label for="message" class="text-base text-primary font-bold">Pesan</label>
+                            <textarea name="message" id="message" cols="30" rows="5" required
+                                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"></textarea>
+                        </div>
 
-                <div class="w-full px-4 lg:w-1/2">
-                    <h1>Bingung mau kasih konten apa</h1>
-                </div>
+                        <div class="w-full">
+                            <button
+                                class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:opacity-80 hover:shadow-lg transition duration-500">
+                                Kirim 🚀
+                            </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
