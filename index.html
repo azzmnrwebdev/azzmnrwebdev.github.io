@@ -15,7 +15,18 @@
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
-                    <a href="#home" class="font-bold text-lg text-primary block py-4">azzmnralwmans</a>
+                    <a href="#home" class="font-bold text-lg block py-4">
+                        <div class="flex items-center justify-center relative">
+                            <div
+                                class="border-[2px] border-dashed rounded-full mr-2 h-10 w-10 border-dark animate-spin-slow">
+                            </div>
+                            <div class="absolute left-1">
+                                <span
+                                    class="w-8 h-8 rounded-full border text-slate-300 bg-dark flex justify-center items-center text-sm italic">A</span>
+                            </div>
+                            azzmnralwmans
+                        </div>
+                    </a>
                 </div>
                 <div class="flex items-center px-4">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -61,9 +72,9 @@
     <!-- Header End -->
 
     <!-- Hero Section Start -->
-    <section id="home" class="pt-40 pb-24">
+    <section id="home" class="pt-36 pb-24">
         <div class="container">
-            <div class="w-full px-4">
+            <div class="w-full px-4 lg:max-w-xl md:max-w-lg">
                 <h1 class="text-base font-semibold text-primary md:text-xl">Hallo Semua 👋, saya <span
                         class="block font-bold text-dark text-4xl lg:text-5xl">Muhammad Azzam
                     </span></h1>
@@ -79,16 +90,14 @@
     <!-- Hero Section End -->
 
     <!-- About Section Start -->
-    <section id="about" class="bg-slate-100 py-40">
+    <section id="about" class="bg-slate-100 py-36">
         <div class="container">
-            <div class="w-full px-4">
-                <h4 class="font-bold uppercase text-primary text-lg mb-4 flex"><span
-                        class="w-[15px] h-[4px] bg-slate-800 self-center"></span>&nbsp;Tentang Saya 😎</h4>
-            </div>
-
             <div class="flex flex-wrap">
                 <div class="w-full px-4 lg:w-1/2 mb-10">
-                    <p class="text-base font-medium text-slate-500 max-w-xl lg:text-lg">I am an active 6th semester
+                    <h4 class="font-bold uppercase text-primary text-lg mb-4 flex"><span
+                            class="w-[15px] h-[4px] bg-slate-800 self-center"></span>&nbsp;Tentang Saya 😎</h4>
+                    
+                    <p class="text-base font-medium text-slate-500 text-justify lg:text-lg">I am an active 6th semester
                         student as a 21
                         year old Jr
                         Full stack Web Development. The world of the website
@@ -103,7 +112,7 @@
 
                 <div class="w-full px-4 lg:w-1/2">
                     <!-- mau isi gambar -->
-                    <h1>Mau di isi gambar</h1>
+                    <h1 class="lg:pt-10">Mau di isi gambar</h1>
                 </div>
             </div>
         </div>
@@ -111,7 +120,7 @@
     <!-- About Section End -->
 
     <!-- Portfolio Section Start -->
-    <section id="portfolio" class="pt-40 pb-24">
+    <section id="portfolio" class="pt-36 pb-24">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
@@ -178,7 +187,7 @@
     <!-- Portfolio Section End -->
 
     <!-- Sertifikat Section Start -->
-    <section id="sertifikat" class="pt-40 pb-24 bg-slate-800">
+    <section id="sertifikat" class="pt-36 pb-24 bg-slate-800">
         <div class="container">
             <div class="w-full px-4">
                 <h4 class="font-bold uppercase text-primary text-lg mb-8 flex"><span
@@ -287,7 +296,7 @@
     <!-- Blog Section End -->
 
     <!-- Contact Section Start -->
-    <section id="contact" class="pt-40 pb-24">
+    <section id="contact" class="pt-36 pb-24">
         <div class="container">
             <div class="w-full px-4">
                 <h4 class="font-bold uppercase text-primary justify-center text-lg mb-8 flex"><span
@@ -300,12 +309,12 @@
                         <div class="w-full mb-5">
                             <label for="name" class="text-base text-primary font-bold">Nama</label>
                             <input type="text" id="name"
-                                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary" required />
+                                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+                                required />
                         </div>
                         <div class="w-full mb-5">
                             <label for="email" class="text-base text-primary font-bold">Email</label>
-                            <input type="email" id="email"
-                                class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none
+                            <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none
                                 focus:ring-primary focus:ring-1 focus:border-primary" required />
                         </div>
                         <div class="w-ful mb-7">
